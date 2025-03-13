@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\helpfunc\\helpfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:helpfunc\\helpfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\handlemessage\\handlecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:handlemessage\\handlecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|D:\\KindnessDaily_bot\\KindnessDaily_bot\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|D:\\KindnessDaily_bot\\KindnessDaily_bot\\handlemessage\\handlecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:handlemessage\\handlecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|D:\\KindnessDaily_bot\\KindnessDaily_bot\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|D:\\KindnessDaily_bot\\KindnessDaily_bot\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +38,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "HelpFunc.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HelpFunc\\HelpFunc.cs",
+              "RelativeDocumentMoniker": "HelpFunc\\HelpFunc.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HelpFunc\\HelpFunc.cs",
+              "RelativeToolTip": "HelpFunc\\HelpFunc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:17:46.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StartCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StartCommand.cs",
               "RelativeDocumentMoniker": "Commands\\StartCommand.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StartCommand.cs",
               "RelativeToolTip": "Commands\\StartCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:53:59.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StopCommand.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StopCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\StopCommand.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StopCommand.cs",
+              "RelativeToolTip": "Commands\\StopCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T21:07:14.127Z",
               "EditorCaption": ""
             },
             {
@@ -53,46 +87,46 @@
               "RelativeDocumentMoniker": "DataBase.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase.cs",
               "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:51:19.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "GlobalUsing.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\GlobalUsing.cs",
               "RelativeToolTip": "GlobalUsing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:43:04.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HandleCommands.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
               "RelativeDocumentMoniker": "HandleMessage\\HandleCommands.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
               "RelativeToolTip": "HandleMessage\\HandleCommands.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAQAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:41:51.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAArAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T20:18:56.432Z",
               "EditorCaption": ""
