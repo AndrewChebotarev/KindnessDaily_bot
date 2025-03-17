@@ -4,15 +4,14 @@
     {
         public static async Task StopCommandAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
-            if (!DataBase.usersIdList.Contains(update.Message.Chat.Id))
+            long userId = HelpFunc.GetUserId(update);
+
+            if (!DataBase.CheckContainsUserId(userId))
                 return;
 
-            DataBase.usersIdList.Remove(update.Message.Chat.Id);
+            await HelpFunc.SendMessage(botClient, userId, cancellationToken, DataBase.stopMessage);
 
-            await botClient.SendMessage(
-                chatId: update.Message.Chat.Id,
-                text: "Соси!",
-                cancellationToken: cancellationToken);
+            DataBase.RemoveUserId(userId);
         }
     }
 }
