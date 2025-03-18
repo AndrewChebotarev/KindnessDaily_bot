@@ -1,4 +1,6 @@
-﻿namespace KindnessDaily_bot
+﻿using Telegram.Bot.Types.ReplyMarkups;
+
+namespace KindnessDaily_bot
 {
     public class DataBase
     {
@@ -9,6 +11,8 @@
         public static string startMessage = "Здарова, епт!";
         public static string stopMessage = "Пока, епта!";
         public static string kindnessTask = "Задачка, пососи!";
+        public static string unknownMessage = "Выбери кнопку!";
+        public static List<string> userCommands = new() { "/start", "/stop" };
 
         public static void AddUserId(long userId)
         {

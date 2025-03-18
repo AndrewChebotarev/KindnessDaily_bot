@@ -13,28 +13,14 @@ namespace KindnessDaily_bot.Commands
             {
                 DataBase.AddUserId(userId);
                 await HelpFunc.SendMessage(botClient, userId, cancellationToken, DataBase.startMessage);
+                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/stop" }, botClient, userId, cancellationToken);
 
-                await Task.Delay(3000);
-
-                // Создаем клавиатуру
-                var replyKeyboard = new ReplyKeyboardMarkup(new[]
-                {
-        new[] { new KeyboardButton("Кнопка 1"), new KeyboardButton("Кнопка 2") },
-        new[] { new KeyboardButton("Кнопка 3") }
-    })
-                {
-                    ResizeKeyboard = true // Клавиатура подстраивается под размер экрана
-                };
-
-                // Отправляем сообщение с клавиатурой
-                await botClient.SendTextMessageAsync(
-                    chatId: userId,
-                    text: "Выберите действие:",
-                    replyMarkup: replyKeyboard,
-                    cancellationToken: cancellationToken);
+                await Task.Delay(1000);
 
                 KindnessSendingTask.StartMessageSendingTask(botClient, cancellationToken, userId);
             }
+            else
+                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/stop" }, botClient, userId, cancellationToken);
         }
     }
 }

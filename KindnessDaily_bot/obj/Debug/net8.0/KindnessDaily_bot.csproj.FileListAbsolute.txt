@@ -3,7 +3,6 @@ D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\KindnessDaily_bot.deps.j
 D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\KindnessDaily_bot.runtimeconfig.json
 D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\KindnessDaily_bot.dll
 D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\KindnessDaily_bot.pdb
-D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\System.Text.Json.dll
 D:\KindnessDaily_bot\KindnessDaily_bot\bin\Debug\net8.0\Telegram.Bot.dll
 D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.csproj.AssemblyReference.cache
 D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.GeneratedMSBuildEditorConfig.editorconfig
@@ -17,3 +16,5 @@ D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\refint\KindnessDaily_bot
 D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.pdb
 D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.genruntimeconfig.cache
 D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\ref\KindnessDaily_bot.dll
+D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.Properties.Resources.resources
+D:\KindnessDaily_bot\KindnessDaily_bot\obj\Debug\net8.0\KindnessDaily_bot.csproj.GenerateResource.cache

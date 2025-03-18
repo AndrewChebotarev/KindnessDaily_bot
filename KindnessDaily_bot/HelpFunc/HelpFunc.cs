@@ -1,4 +1,6 @@
-﻿using Telegram.Bot.Types;
+﻿using System.Threading;
+using Telegram.Bot.Types;
+using Telegram.Bot.Types.ReplyMarkups;
 
 namespace KindnessDaily_bot._HelpFunc
 {
@@ -23,6 +25,18 @@ namespace KindnessDaily_bot._HelpFunc
                 cancellationToken: cancellationToken);
 
             Console.WriteLine($"Отправлено сообщение пользователю с Id: { userId }, с текстом: { message }.");
+        }
+
+        public static async Task CreateKeyboard(KeyboardButton[] keyboardButtons, ITelegramBotClient botClient, long userId, CancellationToken cancellationToken)
+        {
+            var replyKeyboard = new ReplyKeyboardMarkup(keyboardButtons);
+            replyKeyboard.ResizeKeyboard = true;
+
+            await botClient.SendMessage(
+                chatId: userId,
+                text: "Выберите действие:",
+                replyMarkup: replyKeyboard,
+                cancellationToken: cancellationToken);
         }
     }
 }

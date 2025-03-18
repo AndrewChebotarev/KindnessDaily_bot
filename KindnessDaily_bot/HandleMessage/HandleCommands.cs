@@ -1,4 +1,7 @@
-﻿namespace KindnessDaily_bot.HandleCommands
+﻿using System.Threading;
+using Telegram.Bot.Types;
+
+namespace KindnessDaily_bot.HandleCommands
 {
     public class HandleCommands
     {
@@ -12,37 +15,30 @@
             try
             {
                 if (update.Type == UpdateType.MyChatMember)
-                {
-                    var chatMember = update.MyChatMember;
-
-                    // Проверяем, что пользователь заблокировал бота
-                    if (chatMember.NewChatMember.Status == ChatMemberStatus.Kicked)
-                    {
-                        long userId = chatMember.Chat.Id;
-
-                        // Удаляем пользователя из базы данных
-                        DataBase.RemoveUserId(userId);
-
-                        Console.WriteLine($"Пользователь {userId} заблокировал бота.");
-
-                        return;
-                    }
-                }
+                    await LockCommand.LockCommandAsync(update);
                 else
                 {
                     string userMessage = HelpFunc.GetMessageUserText(update);
                     HelpFunc.GetInformationUserMessage(update);
 
-                    if (update.Type == UpdateType.Message && userMessage == "/start")
-                        await StartCommand.StartCommandAsync(botClient, update, cancellationToken);
-                    else if (update.Type == UpdateType.Message && userMessage == "/stop")
-                        await StopCommand.StopCommandAsync(botClient, update, cancellationToken);
+                    if (DataBase.userCommands.Contains(userMessage))
+                        await ChoiceCommand(botClient, update, cancellationToken, userMessage);
+                    else
+                        await UnknownCommand.RemindAboutButtons(botClient, update, cancellationToken);
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Ошибка!" + ex);
             }
+        }
+
+        private static async Task ChoiceCommand(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken, string userMessage)
+        {
+            if (update.Type == UpdateType.Message && userMessage == "/start")
+                await StartCommand.StartCommandAsync(botClient, update, cancellationToken);
+            else if (update.Type == UpdateType.Message && userMessage == "/stop")
+                await StopCommand.StopCommandAsync(botClient, update, cancellationToken);
         }
 
         private static Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)
