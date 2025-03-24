@@ -27,14 +27,14 @@ namespace KindnessDaily_bot._HelpFunc
             Console.WriteLine($"Отправлено сообщение пользователю с Id: { userId }, с текстом: { message }.");
         }
 
-        public static async Task CreateKeyboard(KeyboardButton[] keyboardButtons, ITelegramBotClient botClient, long userId, CancellationToken cancellationToken)
+        public static async Task CreateKeyboard(KeyboardButton[] keyboardButtons, ITelegramBotClient botClient, long userId, CancellationToken cancellationToken, string text)
         {
             var replyKeyboard = new ReplyKeyboardMarkup(keyboardButtons);
             replyKeyboard.ResizeKeyboard = true;
 
             await botClient.SendMessage(
                 chatId: userId,
-                text: "Выберите действие:",
+                text: text,
                 replyMarkup: replyKeyboard,
                 cancellationToken: cancellationToken);
         }

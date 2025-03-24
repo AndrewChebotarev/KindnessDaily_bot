@@ -13,14 +13,13 @@ namespace KindnessDaily_bot.Commands
             {
                 DataBase.AddUserId(userId);
                 await HelpFunc.SendMessage(botClient, userId, cancellationToken, DataBase.startMessage);
-                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/stop" }, botClient, userId, cancellationToken);
 
-                await Task.Delay(1000);
+                await Task.Delay(2000);
 
                 KindnessSendingTask.StartMessageSendingTask(botClient, cancellationToken, userId);
             }
             else
-                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/stop" }, botClient, userId, cancellationToken);
+                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/stop" }, botClient, userId, cancellationToken, DataBase.stopMessage);
         }
     }
 }

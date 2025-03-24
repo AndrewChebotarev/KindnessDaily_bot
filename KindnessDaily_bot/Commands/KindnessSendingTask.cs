@@ -11,14 +11,14 @@
                     if (!DataBase.usersIdList.Contains(userId))
                         return;
 
-                    await HelpFunc.SendMessage(botClient, userId, cancellationToken, DataBase.kindnessTask);
+                    await HelpFunc.CreateKeyboard(new KeyboardButton[] { "Выполнено ✅", "Пропустить ❌", "Статистика 📊" }, botClient, userId, cancellationToken, DataBase.kindnessTask);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при отправке сообщения: {ex.Message}");
                 }
 
-                await Task.Delay(2000);
+                await Task.Delay(5000);
             }
         }
     }

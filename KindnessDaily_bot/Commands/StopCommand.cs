@@ -10,13 +10,11 @@ namespace KindnessDaily_bot.Commands
 
             if (!DataBase.CheckContainsUserId(userId))
             {
-                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/start" }, botClient, userId, cancellationToken);
+                await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/start" }, botClient, userId, cancellationToken, DataBase.stopMessage);
                 return;
             }
 
-            await HelpFunc.SendMessage(botClient, userId, cancellationToken, DataBase.stopMessage);
-            await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/start" }, botClient, userId, cancellationToken);
-
+            await HelpFunc.CreateKeyboard(new KeyboardButton[] { "/start" }, botClient, userId, cancellationToken, DataBase.stopMessage);
             DataBase.RemoveUserId(userId);
         }
     }
