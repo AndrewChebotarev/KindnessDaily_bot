@@ -39,6 +39,10 @@ namespace KindnessDaily_bot.HandleCommands
                 await StartCommand.StartCommandAsync(botClient, update, cancellationToken);
             else if (update.Type == UpdateType.Message && userMessage == "/stop")
                 await StopCommand.StopCommandAsync(botClient, update, cancellationToken);
+            else if (update.Type == UpdateType.Message && userMessage == "Выполнено ✅")
+                await TaskDone.TaskDoneAsync(botClient, update, cancellationToken);
+            else if (update.Type == UpdateType.Message && userMessage == "")
+                await TaskDone.TaskDoneAsync(botClient, update, cancellationToken);
         }
 
         private static Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)

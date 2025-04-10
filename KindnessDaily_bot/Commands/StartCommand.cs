@@ -1,7 +1,4 @@
-﻿using Telegram.Bot.Types;
-using Telegram.Bot.Types.ReplyMarkups;
-
-namespace KindnessDaily_bot.Commands
+﻿namespace KindnessDaily_bot.Commands
 {
     public static class StartCommand
     {

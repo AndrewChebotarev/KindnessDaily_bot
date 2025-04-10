@@ -12,7 +12,9 @@ namespace KindnessDaily_bot
         public static string stopMessage = "Пока, епта!";
         public static string kindnessTask = "Задачка на сегодня: пивко 0.5!";
         public static string unknownMessage = "Я тебя не понимаю(";
-        public static List<string> userCommands = new() { "/start", "/stop" };
+        public static string taskDoneMessage = "Умничка моя, ну просто заячка!";
+        public static List<string> userCommands = new() { "/start", "/stop", "Выполнено ✅" };
+
 
         public static void AddUserId(long userId)
         {
