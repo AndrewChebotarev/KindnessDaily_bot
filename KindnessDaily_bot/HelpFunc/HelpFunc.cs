@@ -1,8 +1,4 @@
-﻿using System.Threading;
-using Telegram.Bot.Types;
-using Telegram.Bot.Types.ReplyMarkups;
-
-namespace KindnessDaily_bot._HelpFunc
+﻿namespace KindnessDaily_bot._HelpFunc
 {
     public static class HelpFunc
     {

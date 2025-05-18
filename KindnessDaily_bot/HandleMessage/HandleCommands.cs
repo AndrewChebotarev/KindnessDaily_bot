@@ -1,7 +1,4 @@
-﻿using System.Threading;
-using Telegram.Bot.Types;
-
-namespace KindnessDaily_bot.HandleCommands
+﻿namespace KindnessDaily_bot.HandleCommands
 {
     public class HandleCommands
     {
@@ -40,9 +37,11 @@ namespace KindnessDaily_bot.HandleCommands
             else if (update.Type == UpdateType.Message && userMessage == "/stop")
                 await StopCommand.StopCommandAsync(botClient, update, cancellationToken);
             else if (update.Type == UpdateType.Message && userMessage == "Выполнено ✅")
-                await TaskDone.TaskDoneAsync(botClient, update, cancellationToken);
-            else if (update.Type == UpdateType.Message && userMessage == "")
-                await TaskDone.TaskDoneAsync(botClient, update, cancellationToken);
+                await TaskDoneCommand.TaskDoneCommandAsync(botClient, update, cancellationToken);
+            else if (update.Type == UpdateType.Message && userMessage == "Пропустить ❌")
+                await TaskSkipCommand.TaskSkipCommandAsync(botClient, update, cancellationToken);
+            else if (update.Type == UpdateType.Message && userMessage == "Статистика 📊")
+                await StatisticsCommand.StatisticsCommandAsync(botClient, update, cancellationToken);
         }
 
         private static Task HandleErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)

@@ -1,6 +1,6 @@
 ﻿namespace KindnessDaily_bot.Commands
 {
-    public static class KindnessSendingTask
+    public class KindnessSendingTask
     {
         public static async Task StartMessageSendingTask(ITelegramBotClient botClient, CancellationToken cancellationToken, long userId)
         {

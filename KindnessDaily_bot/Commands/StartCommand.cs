@@ -1,6 +1,6 @@
 ﻿namespace KindnessDaily_bot.Commands
 {
-    public static class StartCommand
+    public class StartCommand
     {
         public static async Task StartCommandAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {

@@ -1,8 +1,6 @@
-﻿using Telegram.Bot.Types.ReplyMarkups;
-
-namespace KindnessDaily_bot.Commands
+﻿namespace KindnessDaily_bot.Commands
 {
-    public static class StopCommand
+    public class StopCommand
     {
         public static async Task StopCommandAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
         {
