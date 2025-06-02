@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KindnessDaily_bot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5283dab258536bdaf1f1bccc21371c8499b6a07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fb79c66072bba379b99f1ada8c47fc04421c104")]
 [assembly: System.Reflection.AssemblyProductAttribute("KindnessDaily_bot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KindnessDaily_bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

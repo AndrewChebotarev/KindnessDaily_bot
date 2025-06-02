@@ -1,4 +1,4 @@
-﻿namespace KindnessDaily_bot.Commands
+﻿namespace KindnessDaily_bot._Commands
 {
     public class LockCommand
     {

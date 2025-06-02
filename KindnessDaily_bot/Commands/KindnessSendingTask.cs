@@ -1,4 +1,6 @@
-﻿namespace KindnessDaily_bot.Commands
+﻿using KindnessDaily_bot._DataBase;
+
+namespace KindnessDaily_bot._Commands
 {
     public class KindnessSendingTask
     {
@@ -11,7 +13,9 @@
                     if (!DataBase.usersIdList.Contains(userId))
                         return;
 
-                    await HelpFunc.CreateKeyboard(new KeyboardButton[] { "Выполнено ✅", "Пропустить ❌", "Статистика 📊" }, botClient, userId, cancellationToken, DataBase.kindnessTask);
+                    string task = GetTasksAsync().Result;
+
+                    await HelpFunc.CreateKeyboard(new KeyboardButton[] { "Выполнено ✅", "Пропустить ❌", "Статистика 📊" }, botClient, userId, cancellationToken, task);
                 }
                 catch (Exception ex)
                 {
@@ -20,6 +24,14 @@
 
                 await Task.Delay(5000);
             }
+        }
+
+        private static async Task<string> GetTasksAsync()
+        {
+            await using TelegramBotContext dataBase = new();
+            BotTasks? task = await dataBase.Tasks.FindAsync(1);
+
+            return task?.Task ?? "Задача не установлена!";
         }
     }
 }

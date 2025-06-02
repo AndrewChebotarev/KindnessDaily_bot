@@ -1,4 +1,4 @@
-﻿namespace KindnessDaily_bot.HandleCommands
+﻿namespace KindnessDaily_bot._HandleCommands
 {
     public class HandleCommands
     {
