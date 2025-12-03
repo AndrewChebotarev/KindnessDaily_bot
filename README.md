@@ -2,7 +2,7 @@
 
 ![.NET](https://img.shields.io/badge/Platform-.NET_8-512BD4?style=for-the-badge&logo=dotnet)
 ![Telegram](https://img.shields.io/badge/API-Telegram_Bot-26A5E4?style=for-the-badge&logo=telegram)
-![Status](https://img.shields.io/badge/Status-Active_Development-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Archived-lightgrey?style=for-the-badge)
 
 ## 🎯 Project Description
 
