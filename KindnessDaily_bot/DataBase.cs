@@ -2,7 +2,7 @@
 {
     public class DataBase
     {
-        public static readonly string BotToken = "7036590643:AAE4YM4QTQ1SyMr30O4NXWPdh-uKsNnos6E";
+        public static readonly string BotToken = "7036590643:AAEUbT7mq3kqeuwsUorYgnVdeIGWUuJcd20";
 
         public static List<long> usersIdList = new();
 

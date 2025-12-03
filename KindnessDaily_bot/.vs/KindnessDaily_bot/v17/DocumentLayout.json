@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\lockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\lockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\kindnesssendingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\kindnesssendingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\lockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\lockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\kindnesssendingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\kindnesssendingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\commands\\unknowncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:commands\\statisticscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|d:\\kindnessdaily_bot\\kindnessdaily_bot\\helpfunc\\helpfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56B98A3C-DE3B-487B-8C32-020B80376427}|KindnessDaily_bot.csproj|solutionrelative:helpfunc\\helpfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -78,20 +82,19 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BotStartMessage.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotStartMessage.cs",
-              "RelativeDocumentMoniker": "DataBase\\Models\\BotStartMessage.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotStartMessage.cs",
-              "RelativeToolTip": "DataBase\\Models\\BotStartMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:56:54.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T13:11:33.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "StartCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StartCommand.cs",
               "RelativeDocumentMoniker": "Commands\\StartCommand.cs",
@@ -99,12 +102,11 @@
               "RelativeToolTip": "Commands\\StartCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:21.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T19:30:21.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LockCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\LockCommand.cs",
               "RelativeDocumentMoniker": "Commands\\LockCommand.cs",
@@ -112,12 +114,11 @@
               "RelativeToolTip": "Commands\\LockCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:21.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T19:30:21.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "StopCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StopCommand.cs",
               "RelativeDocumentMoniker": "Commands\\StopCommand.cs",
@@ -125,12 +126,11 @@
               "RelativeToolTip": "Commands\\StopCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:20.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T19:30:20.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UnknownCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\UnknownCommand.cs",
               "RelativeDocumentMoniker": "Commands\\UnknownCommand.cs",
@@ -138,12 +138,11 @@
               "RelativeToolTip": "Commands\\UnknownCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:25.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T19:30:25.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TaskDoneCommand.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\TaskDoneCommand.cs",
               "RelativeDocumentMoniker": "Commands\\TaskDoneCommand.cs",
@@ -151,8 +150,7 @@
               "RelativeToolTip": "Commands\\TaskDoneCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:19.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T19:30:19.026Z"
             },
             {
               "$type": "Document",
@@ -162,27 +160,26 @@
               "RelativeDocumentMoniker": "DataBase.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase.cs",
               "RelativeToolTip": "DataBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T22:04:14.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "KindnessSendingTask.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\KindnessSendingTask.cs",
               "RelativeDocumentMoniker": "Commands\\KindnessSendingTask.cs",
               "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\KindnessSendingTask.cs",
               "RelativeToolTip": "Commands\\KindnessSendingTask.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:24:23.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T22:24:23.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BotStopMessage.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotStopMessage.cs",
               "RelativeDocumentMoniker": "DataBase\\Models\\BotStopMessage.cs",
@@ -190,77 +187,11 @@
               "RelativeToolTip": "DataBase\\Models\\BotStopMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T20:41:20.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T20:41:20.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BotTasks.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotTasks.cs",
-              "RelativeDocumentMoniker": "DataBase\\Models\\BotTasks.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotTasks.cs",
-              "RelativeToolTip": "DataBase\\Models\\BotTasks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:05:24.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TelegramBotContext.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\TelegramBotContext.cs",
-              "RelativeDocumentMoniker": "DataBase\\TelegramBotContext.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\TelegramBotContext.cs",
-              "RelativeToolTip": "DataBase\\TelegramBotContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:06:30.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HandleCommands.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
-              "RelativeDocumentMoniker": "HandleMessage\\HandleCommands.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
-              "RelativeToolTip": "HandleMessage\\HandleCommands.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAxwBcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:22:51.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StatisticsCommand.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StatisticsCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\StatisticsCommand.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StatisticsCommand.cs",
-              "RelativeToolTip": "Commands\\StatisticsCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:23.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TaskSkipCommand.cs",
-              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\TaskSkipCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\TaskSkipCommand.cs",
-              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\TaskSkipCommand.cs",
-              "RelativeToolTip": "Commands\\TaskSkipCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T19:30:18.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "GlobalUsing.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\GlobalUsing.cs",
               "RelativeDocumentMoniker": "GlobalUsing.cs",
@@ -268,12 +199,83 @@
               "RelativeToolTip": "GlobalUsing.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:06:53.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T22:06:53.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BotStartMessage.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotStartMessage.cs",
+              "RelativeDocumentMoniker": "DataBase\\Models\\BotStartMessage.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotStartMessage.cs",
+              "RelativeToolTip": "DataBase\\Models\\BotStartMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T19:56:54.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BotTasks.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotTasks.cs",
+              "RelativeDocumentMoniker": "DataBase\\Models\\BotTasks.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\Models\\BotTasks.cs",
+              "RelativeToolTip": "DataBase\\Models\\BotTasks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:05:24.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TelegramBotContext.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\TelegramBotContext.cs",
+              "RelativeDocumentMoniker": "DataBase\\TelegramBotContext.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\DataBase\\TelegramBotContext.cs",
+              "RelativeToolTip": "DataBase\\TelegramBotContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:06:30.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HandleCommands.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
+              "RelativeDocumentMoniker": "HandleMessage\\HandleCommands.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HandleMessage\\HandleCommands.cs",
+              "RelativeToolTip": "HandleMessage\\HandleCommands.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAxwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T22:22:51.439Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "StatisticsCommand.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StatisticsCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\StatisticsCommand.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\StatisticsCommand.cs",
+              "RelativeToolTip": "Commands\\StatisticsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T19:30:23.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskSkipCommand.cs",
+              "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\TaskSkipCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\TaskSkipCommand.cs",
+              "ToolTip": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\Commands\\TaskSkipCommand.cs",
+              "RelativeToolTip": "Commands\\TaskSkipCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T19:30:18.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "HelpFunc.cs",
               "DocumentMoniker": "D:\\KindnessDaily_bot\\KindnessDaily_bot\\HelpFunc\\HelpFunc.cs",
               "RelativeDocumentMoniker": "HelpFunc\\HelpFunc.cs",
